@@ -15,6 +15,12 @@
 		C41A0AC729D0DF56002DEEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A0AC529D0DF56002DEEE8 /* LaunchScreen.storyboard */; };
 		C41A0AFD29D26470002DEEE8 /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A0AFC29D26470002DEEE8 /* TabBarViewController.storyboard */; };
 		C41A0AFF29D2649A002DEEE8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0AFE29D2649A002DEEE8 /* TabBarViewController.swift */; };
+		C41A0B0329D268C2002DEEE8 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0B0229D268C2002DEEE8 /* NotesViewController.swift */; };
+		C41A0B0529D268E1002DEEE8 /* NotesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A0B0429D268E1002DEEE8 /* NotesViewController.storyboard */; };
+		C41A0B0729D268FE002DEEE8 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0B0629D268FE002DEEE8 /* ActivityViewController.swift */; };
+		C41A0B0929D26916002DEEE8 /* ActivityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A0B0829D26916002DEEE8 /* ActivityViewController.storyboard */; };
+		C41A0B0C29D26A66002DEEE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0B0B29D26A66002DEEE8 /* HomeViewController.swift */; };
+		C41A0B0E29D26A78002DEEE8 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A0B0D29D26A78002DEEE8 /* HomeViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		C41A0AC829D0DF56002DEEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41A0AFC29D26470002DEEE8 /* TabBarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
 		C41A0AFE29D2649A002DEEE8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C41A0B0229D268C2002DEEE8 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		C41A0B0429D268E1002DEEE8 /* NotesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotesViewController.storyboard; sourceTree = "<group>"; };
+		C41A0B0629D268FE002DEEE8 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		C41A0B0829D26916002DEEE8 /* ActivityViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivityViewController.storyboard; sourceTree = "<group>"; };
+		C41A0B0B29D26A66002DEEE8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C41A0B0D29D26A78002DEEE8 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +95,10 @@
 		C41A0AFA29D26430002DEEE8 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				C41A0AFB29D2643D002DEEE8 /* TabBarViewController */,
+				C41A0B0A29D26A46002DEEE8 /* HomeViewController */,
 				C41A0B0129D267D6002DEEE8 /* NotesViewController */,
 				C41A0B0029D2678B002DEEE8 /* ActivityViewController */,
-				C41A0AFB29D2643D002DEEE8 /* TabBarViewController */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -102,6 +115,8 @@
 		C41A0B0029D2678B002DEEE8 /* ActivityViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C41A0B0629D268FE002DEEE8 /* ActivityViewController.swift */,
+				C41A0B0829D26916002DEEE8 /* ActivityViewController.storyboard */,
 			);
 			path = ActivityViewController;
 			sourceTree = "<group>";
@@ -109,8 +124,19 @@
 		C41A0B0129D267D6002DEEE8 /* NotesViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C41A0B0229D268C2002DEEE8 /* NotesViewController.swift */,
+				C41A0B0429D268E1002DEEE8 /* NotesViewController.storyboard */,
 			);
 			path = NotesViewController;
+			sourceTree = "<group>";
+		};
+		C41A0B0A29D26A46002DEEE8 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C41A0B0B29D26A66002DEEE8 /* HomeViewController.swift */,
+				C41A0B0D29D26A78002DEEE8 /* HomeViewController.storyboard */,
+			);
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41A0AC729D0DF56002DEEE8 /* LaunchScreen.storyboard in Resources */,
+				C41A0B0529D268E1002DEEE8 /* NotesViewController.storyboard in Resources */,
+				C41A0B0E29D26A78002DEEE8 /* HomeViewController.storyboard in Resources */,
 				C41A0AFD29D26470002DEEE8 /* TabBarViewController.storyboard in Resources */,
 				C41A0AC429D0DF56002DEEE8 /* Assets.xcassets in Resources */,
+				C41A0B0929D26916002DEEE8 /* ActivityViewController.storyboard in Resources */,
 				C41A0AC229D0DF55002DEEE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,8 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41A0AFF29D2649A002DEEE8 /* TabBarViewController.swift in Sources */,
+				C41A0B0729D268FE002DEEE8 /* ActivityViewController.swift in Sources */,
+				C41A0B0329D268C2002DEEE8 /* NotesViewController.swift in Sources */,
 				C41A0ABF29D0DF55002DEEE8 /* ViewController.swift in Sources */,
 				C41A0ABB29D0DF55002DEEE8 /* AppDelegate.swift in Sources */,
+				C41A0B0C29D26A66002DEEE8 /* HomeViewController.swift in Sources */,
 				C41A0ABD29D0DF55002DEEE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
